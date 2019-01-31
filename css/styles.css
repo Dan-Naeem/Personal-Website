@@ -20,6 +20,21 @@ body {
   margin: 0em;
 }
 
+.bottom {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: slategrey;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  margin: 0em;
+}
+
+.chunk {
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   border-style: solid;
   border-radius: 1em;
@@ -30,16 +45,6 @@ body {
   flex-direction: row;
   padding: .5em;
   margin: .5em;
-}
-
-.bottom {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: slategrey;
-  width: 100%;
-  height: auto;
-  padding: 1em;
-  margin: 0em;
 }
 
 
