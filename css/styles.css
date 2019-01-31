@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0em;
+  padding: 0em;
+}
+
+.navbar {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: slategrey;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  margin: 0em;
+}
+
+.chunk {
+  border-style: solid;
+  border-radius: 1em;
+  border-color: slateblue;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: .5em;
+  margin: .5em;
+}
+
+.bottom {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: slategrey;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  margin: 0em;
+}
