@@ -41,3 +41,14 @@ body {
   padding: 1em;
   margin: 0em;
 }
+
+
+.card {
+  border-style: solid;
+  border-radius: 1em;
+  border-color: red;
+  width: auto;
+  height: auto;
+  margin: 1em;
+  padding: 1em;
+}
