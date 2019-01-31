@@ -3,6 +3,9 @@
 }
 
 body {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: yellow;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,15 +34,22 @@ body {
 }
 
 .chunk {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: orange;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0em;
+  margin: 2em;
 }
 
 .content {
   border-style: solid;
   border-radius: 1em;
   border-color: slateblue;
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -56,4 +66,14 @@ body {
   height: auto;
   margin: 1em;
   padding: 1em;
+}
+
+.heading {
+  border-style: solid;
+  border-radius: 0em;
+  border-color: grey;
+  width: auto;
+  height: auto;
+  margin: .5em;
+  padding: .5em;
 }
