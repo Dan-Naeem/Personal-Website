@@ -1,85 +1,102 @@
-*, *:before, *:after {
-     -moz-box-sizing: border-box;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: yellow;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0em;
-  padding: 0em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em;
+    padding: 0em;
 }
 
 .navbar {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: slategrey;
-  width: 100%;
-  height: auto;
-  padding: 1em;
-  margin: 0em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: slategrey;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 0em;
 }
 
 .bottom {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: slategrey;
-  width: 100%;
-  height: auto;
-  padding: 1em;
-  margin: 0em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: slategrey;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 0em;
 }
 
 .chunk {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: orange;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  padding: .5em;
-  margin: .5em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: .5em;
+    margin: .5em;
 }
 
 .content {
-  border-style: solid;
-  border-radius: 1em;
-  border-color: slateblue;
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  padding: .5em;
-  margin: .5em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: slateblue;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .5em;
+    margin: .5em;
 }
 
 
 .card {
-  border-style: solid;
-  border-radius: 1em;
-  border-color: red;
-  width: auto;
-  height: auto;
-  margin: .5em;
-  padding: .5em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: red;
+    width: auto;
+    max-width: 60%;
+    height: auto;
+    margin: .5em;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .heading {
-  border-style: solid;
-  border-radius: 0em;
-  border-color: grey;
-  width: auto;
-  height: auto;
-  margin: .5em;
-  padding: .5em;
+    border-style: solid;
+    border-radius: 0em;
+    border-color: grey;
+    width: auto;
+    height: auto;
+    margin: .5em;
+    padding: .5em;
 }
 
 .title {
-  font-size: 5em;
+    font-size: 5em;
+}
+
+.image-box {
+    border-style: solid;
+    border-color: green;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
