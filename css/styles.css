@@ -43,8 +43,8 @@ body {
   flex-direction: column;
   width: 100%;
   height: auto;
-  padding: 0em;
-  margin: 2em;
+  padding: .5em;
+  margin: .5em;
 }
 
 .content {
@@ -66,8 +66,8 @@ body {
   border-color: red;
   width: auto;
   height: auto;
-  margin: 1em;
-  padding: 1em;
+  margin: .5em;
+  padding: .5em;
 }
 
 .heading {
@@ -78,4 +78,8 @@ body {
   height: auto;
   margin: .5em;
   padding: .5em;
+}
+
+.title {
+  font-size: 5em;
 }
