@@ -57,9 +57,9 @@ body {
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: .5em;
-    margin: .5em;
+    justify-content: space-between;
+    padding: 0em;
+    margin: 0em;
 }
 
 .card {
@@ -70,8 +70,8 @@ body {
     max-width: 60%;
     min-width: 40%;
     height: auto;
-    margin: .5em;
-    padding: .5em;
+    margin: 0em;
+    padding: 0em;
     display: flex;
     flex-direction: column;
 
@@ -127,6 +127,8 @@ body {
     border-color: green;
     width: 100%;
     height: auto;
+    padding: .5em;
+    margin: .5em;
 }
 
 .tall-image-box {
@@ -134,4 +136,6 @@ body {
     border-color: greenyellow;
     height: 100%;
     width: auto;
+    padding: .5em;
+    margin: .5em;
 }
