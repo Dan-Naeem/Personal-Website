@@ -9,7 +9,7 @@
 body {
     border-style: solid;
     border-radius: 0em;
-    border-color: yellow;
+    border-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 .navbar {
     border-style: solid;
     border-radius: 0em;
-    border-color: slategrey;
+    border-color: transparent;
     width: 100%;
     height: auto;
     padding: 1em;
@@ -30,7 +30,7 @@ body {
 .bottom {
     border-style: solid;
     border-radius: 0em;
-    border-color: slategrey;
+    border-color: transparent;
     width: 100%;
     height: auto;
     padding: 1em;
@@ -40,7 +40,7 @@ body {
 .chunk {
     border-style: solid;
     border-radius: 0em;
-    border-color: orange;
+    border-color: transparent;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -52,7 +52,7 @@ body {
 .content {
     border-style: solid;
     border-radius: 0em;
-    border-color: slateblue;
+    border-color: transparent;
     width: auto;
     height: auto;
     display: flex;
@@ -65,7 +65,7 @@ body {
 .card {
     border-style: solid;
     border-radius: 0em;
-    border-color: red;
+    border-color: transparent;
     width: auto;
     max-width: 60%;
     min-width: 40%;
@@ -80,7 +80,7 @@ body {
 .card-text {
     border-style: solid;
     border-radius: 0em;
-    border-color: red;
+    border-color: transparent;
     width: auto;
     max-width: auto;
     height: auto;
@@ -94,7 +94,7 @@ body {
 .card-image {
     border-style: solid;
     border-radius: 0em;
-    border-color: red;
+    border-color: transparent;
     width: auto;
     max-width: auto;
     height: auto;
@@ -111,7 +111,7 @@ body {
 .heading {
     border-style: solid;
     border-radius: 0em;
-    border-color: grey;
+    border-color: transparent;
     width: auto;
     height: auto;
     margin: .5em;
@@ -124,7 +124,7 @@ body {
 
 .image-box {
     border-style: solid;
-    border-color: green;
+    border-color: transparent;
     width: 100%;
     height: auto;
     padding: .5em;
@@ -133,7 +133,7 @@ body {
 
 .tall-image-box {
     border-style: solid;
-    border-color: greenyellow;
+    border-color: transparent;
     height: 100%;
     width: auto;
     padding: .5em;
