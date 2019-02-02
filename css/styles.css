@@ -13,8 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0em;
+    margin: 0em 10em;
     padding: 0em;
+    min-width: 500px;
 }
 
 .navbar {
@@ -24,7 +25,24 @@ body {
     width: 100%;
     height: auto;
     padding: 1em;
+    padding-top: 6em;
     margin: 0em;
+}
+
+.big-line {
+    border-style: solid;
+    background-color: navy;
+    padding: 1em;
+    margin: 0em;
+    width: auto;
+}
+
+.small-line {
+    border-style: solid;
+    background-color: navy;
+    padding: .3em;
+    margin: 0em;
+    width: 20%;
 }
 
 .bottom {
@@ -45,8 +63,8 @@ body {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: .5em;
-    margin: .5em;
+    padding: 1em;
+    margin: 1em;
 }
 
 .content {
@@ -84,8 +102,8 @@ body {
     width: auto;
     max-width: auto;
     height: auto;
-    margin: .5em;
-    padding: .5em;
+    margin: 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
 
@@ -99,19 +117,15 @@ body {
     max-width: auto;
     height: auto;
     max-height: 50em;
-    margin: .5em;
-    padding: .5em;
+    margin: 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-
 .heading {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
     width: auto;
     height: auto;
     margin: .5em;
@@ -120,6 +134,8 @@ body {
 
 .title {
     font-size: 5em;
+    margin: 0em;
+    width: auto;
 }
 
 .image-box {
@@ -127,15 +143,16 @@ body {
     border-color: transparent;
     width: 100%;
     height: auto;
-    padding: .5em;
-    margin: .5em;
+    padding: 1em;
+    margin: 1em;
 }
 
 .tall-image-box {
     border-style: solid;
     border-color: transparent;
+    max-height: 40em;
     height: 100%;
     width: auto;
-    padding: .5em;
-    margin: .5em;
+    padding: 1em;
+    margin: 1em;
 }
