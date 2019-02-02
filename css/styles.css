@@ -68,6 +68,7 @@ body {
     border-color: red;
     width: auto;
     max-width: 60%;
+    min-width: 40%;
     height: auto;
     margin: .5em;
     padding: .5em;
@@ -97,6 +98,7 @@ body {
     width: auto;
     max-width: auto;
     height: auto;
+    max-height: 50em;
     margin: .5em;
     padding: .5em;
     display: flex;
@@ -125,7 +127,11 @@ body {
     border-color: green;
     width: 100%;
     height: auto;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
+}
+
+.tall-image-box {
+    border-style: solid;
+    border-color: greenyellow;
+    height: 100%;
+    width: auto;
 }
