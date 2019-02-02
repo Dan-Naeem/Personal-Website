@@ -55,6 +55,26 @@ body {
     margin: 0em;
 }
 
+.links {
+    border-style: solid;
+    border-color: red;
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.link-box {
+    padding: .5em;
+    margin: .5em;
+    transition: transform .2s;
+}
+
+.link-box:hover {
+    transform: scale(1.2);
+}
+
 .chunk {
     border-style: solid;
     border-radius: 0em;
