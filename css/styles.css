@@ -112,7 +112,6 @@ body {
     padding: 0em;
     display: flex;
     flex-direction: column;
-
 }
 
 .card-text {
@@ -126,7 +125,6 @@ body {
     padding: 1em;
     display: flex;
     flex-direction: column;
-
 }
 
 .card-image {
@@ -142,7 +140,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform .2s;
+}
 
+.card-image:hover {
+    transform: scale(1.05);
 }
 
 .heading {
