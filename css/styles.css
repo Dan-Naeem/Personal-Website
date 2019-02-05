@@ -6,6 +6,28 @@
     box-sizing: border-box;
 }
 
+/* Link Styling */
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
 body {
     margin: 0em;
     padding: 0em;
@@ -66,7 +88,7 @@ body {
 
 .links {
     border-style: solid;
-    border-color: red;
+    border-color: transparent;
     margin: 0em;
     padding: 0em;
     display: flex;
