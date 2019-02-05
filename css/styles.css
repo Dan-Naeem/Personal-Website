@@ -7,6 +7,14 @@
 }
 
 body {
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6ff
+}
+
+.main {
     border-style: solid;
     border-radius: 0em;
     border-color: transparent;
@@ -16,6 +24,7 @@ body {
     margin: 0em 10em;
     padding: 0em;
     min-width: 500px;
+    background: white;
 }
 
 .navbar {
