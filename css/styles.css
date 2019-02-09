@@ -61,32 +61,28 @@ body {
     padding: 2em 0em;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: var(--bg-color);
 }
 
 .main {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
+    width: 80%;
+    min-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0em 10em;
-    padding: 0em;
-    min-width: 900px;
+    margin: 0em;
+    padding: 1em;
     background: var(--main-color);
     box-shadow: 0em 0em 2em 1em grey;
 }
 
 .navbar {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
     width: 100%;
     height: auto;
-    padding: 1em;
-    padding-top: 6em;
-    margin: 0em;
+    padding: 0em;
+    padding-top: 5em;
+    margin: 1em 0em;
     display: flex;
     flex-direction: column;
 }
@@ -105,18 +101,17 @@ body {
 }
 
 .links {
-    border-style: solid;
-    border-color: transparent;
-    margin: 0em;
     padding: 0em;
+    margin: 0em;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
 .link-box {
-    padding: 0em .5em;
-    margin: .25em .5em;
+    padding: .25em;
+    padding-bottom: 0em;
+    margin: .25em;
     border-bottom: solid .25em transparent;
     transition: border 1s;
 }
@@ -125,99 +120,89 @@ body {
     border-bottom: solid .25em var(--blue);
 }
 
-.content {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1em;
-    margin: 1em;
-}
-
-.card {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
-    width: auto;
-    max-width: 60%;
-    min-width: 40%;
-    height: auto;
-    margin: 0em;
-    padding: 0em;
-    display: flex;
-    flex-direction: column;
-}
-
-.card-text {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
-    width: auto;
-    max-width: auto;
-    height: auto;
-    margin: 0em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4em;
-}
-
-.card-image {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
-    width: auto;
-    max-width: auto;
-    height: auto;
-    max-height: 50em;
-    margin: 0em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .heading {
     margin: 0em;
     padding: 0em;
-    padding-left: 1em;
     width: auto;
     height: auto;
 }
 
 .title {
     font-size: 5em;
-    padding: 0em;
 }
 
 .big-line {
-    border: groove 1em var(--blue);
     padding: 0em;
     margin: 0em;
     width: auto;
     height: auto;
+    border: groove 1em var(--blue);
 }
 
 .bar {
+    width: 100%;
+    padding-left: 1em;
+    margin: 1em 0em;
     border-left: groove 1em var(--blue);
 }
 
-.image {
-    border-width: 0em;
-    border-radius: .3em;
-    padding: 0em;
-    margin: 0em;
+.content {
     width: 100%;
     height: auto;
+    padding: 0em;
+    margin: 1em 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    max-width: 60%;
+    min-width: 40%;
+    margin: 0em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: auto;
+    height: auto;
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+}
+
+.center-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 40em;
+    padding: 0em;
+    margin: 0em;
+    border-radius: .3em;
     box-shadow: .5em 1em 1em .5em grey;
     transition: transform .2s, box-shadow .3s;
 }
 
 .tall {
-    max-height: 40em;
     height: 100%;
     width: auto;
+    max-height: 40em;
+    max-width: auto;
 }
 
 .image:hover {
