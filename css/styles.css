@@ -46,12 +46,18 @@ a:active {
     text-decoration: none;
 }
 
+:root {
+    --bg-color: #fffff4;
+    --main-color: white;
+    --blue: navy;
+}
+
 body {
     margin: 0em;
-    padding: 0em;
+    padding: 2em 0em;
     display: flex;
     flex-direction: column;
-    background-color: #e6e6ff
+    background-color: var(--bg-color);
 }
 
 .main {
@@ -63,8 +69,9 @@ body {
     align-items: center;
     margin: 0em 10em;
     padding: 0em;
-    min-width: 500px;
-    background: white;
+    min-width: 900px;
+    background: var(--main-color);
+    box-shadow: 0em 0em 2em 1em grey;
 }
 
 .navbar {
@@ -82,7 +89,7 @@ body {
 
 .big-line {
     border-style: solid;
-    background-color: navy;
+    background-color: var(--blue);
     padding: 1em;
     margin: 0em;
     width: auto;
@@ -90,7 +97,7 @@ body {
 
 .small-line {
     border-style: solid;
-    background-color: navy;
+    background-color: var(--blue);
     padding: .3em;
     margin: 0em;
     width: 20%;
