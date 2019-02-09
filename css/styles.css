@@ -13,6 +13,10 @@
 }
 
 h1 {
+    font-size: 2.5em;
+}
+
+h2 {
     font-size: 2em;
 }
 
@@ -85,14 +89,6 @@ body {
     margin: 0em;
     display: flex;
     flex-direction: column;
-}
-
-.big-line {
-    border: groove 1em var(--blue);
-    padding: 0em;
-    margin: 0em;
-    width: auto;
-    height: auto;
 }
 
 .bottom {
@@ -198,22 +194,27 @@ body {
 }
 
 .heading {
+    margin: 0em;
+    padding: 0em;
+    padding-left: 1em;
     width: auto;
     height: auto;
-    margin: 0em;
-    padding: 1em;
-}
-
-.bar {
-    border-left: groove 1em var(--blue);
 }
 
 .title {
     font-size: 5em;
-    margin: 0em;
+}
+
+.big-line {
+    border: groove 1em var(--blue);
     padding: 0em;
+    margin: 0em;
     width: auto;
     height: auto;
+}
+
+.bar {
+    border-left: groove 1em var(--blue);
 }
 
 .image {
