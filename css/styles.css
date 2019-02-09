@@ -125,29 +125,14 @@ body {
     border-bottom: solid .25em var(--blue);
 }
 
-.chunk {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 1em;
-    margin: 1em;
-}
-
 .content {
-    border-style: solid;
-    border-radius: 0em;
-    border-color: transparent;
     width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0em;
-    margin: 0em;
+    padding: 1em;
+    margin: 1em;
 }
 
 .card {
