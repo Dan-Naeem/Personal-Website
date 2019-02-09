@@ -202,11 +202,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: transform .2s;
-}
-
-.card-image:hover {
-    transform: scale(1.05);
 }
 
 .heading {
@@ -222,23 +217,31 @@ body {
     width: auto;
 }
 
-.image-box {
-    border-style: solid;
-    border-color: transparent;
-    width: 100%;
-    height: auto;
+.image {
+    border-width: 0em;
+    border-radius: .3em;
     padding: 0em;
     margin: 0em;
+    width: 100%;
+    height: auto;
+    box-shadow: .5em 1em 1em .5em grey;
+    transition: transform .2s, box-shadow .3s;
 }
 
-.tall-image-box {
-    border-style: solid;
-    border-color: transparent;
+.tall {
     max-height: 40em;
     height: 100%;
     width: auto;
-    padding: 0em;
-    margin: 0em;
+}
+
+.image:hover {
+    transform: scale(1.03);
+    box-shadow: 1em 2em 2em .5em grey;
+}
+
+.image:active {
+    box-shadow: 0em 0em .75em .5em grey;
+    transform: scale(.97);
 }
 
 .dot {
