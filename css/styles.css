@@ -119,13 +119,14 @@ body {
 }
 
 .link-box {
-    padding: .5em;
-    margin: .5em;
-    transition: transform .2s;
+    padding: 0em .5em;
+    margin: .25em .5em;
+    border-bottom: solid .25em transparent;
+    transition: border 1s;
 }
 
 .link-box:hover {
-    transform: scale(1.2);
+    border-bottom: solid .25em var(--blue);
 }
 
 .chunk {
