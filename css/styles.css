@@ -88,19 +88,11 @@ body {
 }
 
 .big-line {
-    border-style: solid;
-    background-color: var(--blue);
-    padding: 1em;
+    border: groove 1em var(--blue);
+    padding: 0em;
     margin: 0em;
     width: auto;
-}
-
-.small-line {
-    border-style: solid;
-    background-color: var(--blue);
-    padding: .3em;
-    margin: 0em;
-    width: 20%;
+    height: auto;
 }
 
 .bottom {
@@ -211,10 +203,16 @@ body {
     padding: 1em;
 }
 
+.bar {
+    border-left: groove 1em var(--blue);
+}
+
 .title {
     font-size: 5em;
     margin: 0em;
+    padding: 0em;
     width: auto;
+    height: auto;
 }
 
 .image {
