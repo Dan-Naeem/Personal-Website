@@ -13,19 +13,24 @@
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-style: italic
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.1em;
 }
 
 /* Link Styling */
@@ -174,7 +179,6 @@ body {
     padding: 0em;
     display: flex;
     flex-direction: column;
-    font-size: 1.4em;
 }
 
 .center-box {
