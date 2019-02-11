@@ -301,6 +301,10 @@ body {
         box-shadow: 0em 0em 0em 0em white;
     }
 
+    .navbar {
+        padding: 0em;
+    }
+
     .heading.bar {
         border-radius: 2vw;
         background-color: var(--main-color);
