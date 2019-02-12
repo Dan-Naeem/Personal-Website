@@ -305,8 +305,21 @@ body {
         padding: 0em;
     }
 
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-box {
+        padding: 0vw;
+        margin: 0vw;
+    }
+
     .title {
-        font-size: 12vw;
+        font-size: 10vw;
+        text-align: center;
     }
 
     .big-line {
@@ -352,23 +365,20 @@ body {
         max-height: 80vw;
         max-width: auto;
     }
-}
 
-@media screen and (max-width: 640px) {
-    .links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .dot {
+        border-radius: 4vw;
+        width: 1vw;
+        height: 1vw;
+        padding: 0em;
+        margin: 0em;
     }
 
-    .link-box {
-        padding: 0vw;
-        margin: 0vw;
-    }
-
-    .title {
-        text-align: center;
+    .icon {
+        border-radius: 10vw;
+        width: 6vw;
+        height: 6vw;
+        margin: 1vw 2vw;
     }
 }
 
