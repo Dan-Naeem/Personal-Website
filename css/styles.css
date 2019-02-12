@@ -13,27 +13,26 @@
 }
 
 h1 {
-    font-size: 3.5vw;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 3.2vw;
-    margin: .5em 0em;
+    font-size: 2.5em;
 }
 
 h3 {
-    font-size: 2.5vw;
+    font-size: 2.0em;
     font-style: italic;
     margin: 0em;
     padding: 0em;
 }
 
 h4 {
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 h5 {
-    font-size: 1.3vw;
+    font-size: 1.3em;
     margin: 0em;
     padding: 0em;
 }
@@ -83,6 +82,7 @@ body {
 
 .main {
     width: 80%;
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +140,7 @@ body {
 }
 
 .title {
-    font-size: 8vw;
+    font-size: 6em;
 }
 
 .big-line {
