@@ -355,8 +355,7 @@ body {
         max-height: 60em;
         max-width: auto;
         border-radius: 2vw;
-        box-shadow: .5em 1em 1em .5em grey;
-        transition: transform .2s, box-shadow .3s;
+        box-shadow: 1vw 2vw 2vw 1vw grey;
     }
 
     .tall {
