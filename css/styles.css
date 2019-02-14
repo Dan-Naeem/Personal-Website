@@ -121,9 +121,9 @@ body {
 }
 
 .link-box {
-    padding: .25em;
+    padding: 0em;
     padding-bottom: 0em;
-    margin: .25em;
+    margin: .25em 0em;
     border-bottom: solid .25em transparent;
     transition: border 1s;
 }
@@ -140,7 +140,7 @@ body {
 }
 
 .title {
-    font-size: 6em;
+    font-size: 4em;
 }
 
 .big-line {
@@ -148,7 +148,7 @@ body {
     margin: 0em;
     width: auto;
     height: auto;
-    border: groove 1em var(--blue);
+    border: groove .25em var(--blue);
 }
 
 .bar {
