@@ -237,42 +237,44 @@ body {
 
 @media screen and (max-width: 1200px) {
 
-    h1 {
+    /* Universal Card */
+    .card {
+        padding: 2vw;
+        margin: 2vw 0vw;
+        border-radius: 2vw;
+        box-shadow: 0vw .5vw .5vw .2vw grey;
+    }
+
+    /* Font Sizing */
+    .title {
         font-size: 8vw;
     }
 
-    h2 {
+    .divider {
         font-size: 7vw;
     }
 
-    h3 {
+    .heading {
         font-size: 6vw;
     }
 
-    h4 {
+    .position-name {
         font-size: 5vw;
     }
 
-    h5 {
-        font-size: 4vw;
+    .text {
+        font-size: 4vw
     }
 
+    /* Mobile Styles */
     .main {
         width: 95%;
         margin: 0em;
         padding: 0em;
-        background: var(--bg-color);
-        box-shadow: 0em 0em 0em 0em white;
     }
 
     .navbar {
-        padding: 2vw;
-        border-radius: 2vw;
-    }
-
-    .bottom {
-        padding: 2vw;
-        border-radius: 2vw;
+        padding: 0vw;
     }
 
     .links {
@@ -288,48 +290,34 @@ body {
     }
 
     .title {
-        font-size: 10vw;
         text-align: center;
     }
 
-    .divider {
-        border: solid black;
-        padding: 2vw;
-        margin: 2vw 0vw;
-        border-radius: 2vw;
-        background-color: var(--main-color);
-    }
-
     .content {
-        border-radius: 2vw;
-        background-color: var(--main-color);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 2vw 0vw;
     }
 
     .box {
-        border: solid red;
-        border-radius: 2vw;
         width: 100%;
         height: auto;
         max-width: 100%;
         min-width: 100%;
-        margin: 2vw;
+        margin: 2vw 0vw;
     }
 
     .image {
         max-height: 60em;
         max-width: auto;
         border-radius: 2vw;
-        box-shadow: 1vw 2vw 2vw 1vw grey;
+        box-shadow: 0vw .5vw .5vw .2vw grey;
     }
 
     .tall {
         height: 100%;
         width: auto;
-        max-height: 80vw;
+        max-height: 80vh;
         max-width: auto;
     }
 
