@@ -6,35 +6,52 @@
     box-sizing: border-box;
 }
 
+/* Colorway */
+
+:root {
+    --bg-color: #e7edf5;
+    --main-color: white;
+    --blue: navy;
+}
+
+/* Universal Style */
+
+.card {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 1em 0em;
+    background: var(--main-color);
+    box-shadow: 0em .3em .5em .2em grey;
+}
+
 /* Typography */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-h1 {
-    font-size: 3em;
+.title {
+    font-size: 4em;
 }
 
-h2 {
+.divider {
     font-size: 2.5em;
 }
 
-h3 {
-    font-size: 2.0em;
+.heading {
+    font-size: 2em;
+}
+
+.position-name {
+    font-size: 1.5em;
     font-style: italic;
     margin: 0em;
     padding: 0em;
 }
 
-h4 {
-    font-size: 1.5em;
-}
-
-h5 {
+.text {
     font-size: 1.3em;
-    margin: 0em;
-    padding: 0em;
 }
 
 /* Link Styling */
@@ -59,18 +76,6 @@ a:active {
     text-decoration: none;
 }
 
-/*
-    Colorway
-*/
-
-:root {
-    --bg-color: #DFE1E1;
-    --main-color: white;
-    --blue: navy;
-    --card1: ;
-    --card2: ;
-}
-
 body {
     margin: 0em;
     padding: 0em;
@@ -82,31 +87,21 @@ body {
 
 .main {
     width: 80%;
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2em 0em;
-    padding: 1em;
-    background: var(--main-color);
-    box-shadow: 0em 0em 2em 1em grey;
+    padding: 0em;
 }
 
 .navbar {
-    width: 100%;
-    height: auto;
-    padding: 0em;
     padding-top: 5em;
-    margin: 1em 0em;
     display: flex;
     flex-direction: column;
 }
 
 .bottom {
-    width: 100%;
-    height: auto;
-    padding: 1em;
-    margin: 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,43 +127,21 @@ body {
     border-bottom: solid .25em var(--blue);
 }
 
-.heading {
-    margin: 0em;
-    padding: 0em;
-    width: auto;
-    height: auto;
-}
-
-.title {
-    font-size: 4em;
-}
-
 .big-line {
     padding: 0em;
-    margin: 0em;
-    width: auto;
-    height: auto;
-    border: groove .25em var(--blue);
-}
-
-.bar {
+    margin: .5em 0em;
     width: 100%;
-    padding-left: 1em;
-    margin: 1em 0em;
-    border-left: groove 1em var(--blue);
+    height: auto;
+    border: groove .2em var(--blue);
 }
 
 .content {
-    width: 100%;
-    height: auto;
-    padding: 0em;
-    margin: 1em 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.card {
+.box {
     width: auto;
     height: auto;
     max-width: 60%;
@@ -188,7 +161,7 @@ body {
     flex-direction: column;
 }
 
-.center-box {
+.center {
     height: 100%;
     width: 100%;
     display: flex;
@@ -200,7 +173,6 @@ body {
 .image {
     width: 100%;
     height: auto;
-    max-width: 100%;
     max-height: 40em;
     padding: 0em;
     margin: 0em;
@@ -212,8 +184,6 @@ body {
 .tall {
     height: 100%;
     width: auto;
-    max-height: 40em;
-    max-width: auto;
 }
 
 .image:hover {
@@ -250,8 +220,8 @@ body {
 
 .icon {
     border-radius: .6em;
-    width: 2em;
-    height: 2em;
+    width: 2.5em;
+    height: 2.5em;
     margin: .5em;
     padding: 0em;
     display: flex;
@@ -263,13 +233,6 @@ body {
 
 .icon:hover {
     transform: scale(1.2);
-}
-
-.contact {
-    width: auto;
-    height: auto;
-    margin: 0em;
-    padding: 0em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -293,6 +256,7 @@ body {
     h5 {
         font-size: 4vw;
     }
+
     .main {
         width: 95%;
         margin: 0em;
@@ -302,7 +266,13 @@ body {
     }
 
     .navbar {
-        padding: 0em;
+        padding: 2vw;
+        border-radius: 2vw;
+    }
+
+    .bottom {
+        padding: 2vw;
+        border-radius: 2vw;
     }
 
     .links {
@@ -322,12 +292,9 @@ body {
         text-align: center;
     }
 
-    .big-line {
-        border: groove 2vw var(--blue);
-        border-radius: 2vw;
-    }
-
-    .heading.bar {
+    .divider {
+        border: solid black;
+        padding: 2vw;
         margin: 2vw 0vw;
         border-radius: 2vw;
         background-color: var(--main-color);
@@ -342,7 +309,8 @@ body {
         margin: 2vw 0vw;
     }
 
-    .card {
+    .box {
+        border: solid red;
         border-radius: 2vw;
         width: 100%;
         height: auto;
