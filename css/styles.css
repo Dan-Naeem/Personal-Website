@@ -127,12 +127,12 @@ body {
     border-bottom: solid .25em var(--blue);
 }
 
-.big-line {
+.line {
     padding: 0em;
     margin: .5em 0em;
     width: 100%;
     height: auto;
-    border: groove .2em var(--blue);
+    border: solid .25em black;
 }
 
 .content {
