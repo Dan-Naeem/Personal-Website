@@ -22,7 +22,7 @@
     padding: 1em;
     margin: 1em 0em;
     background: var(--main-color);
-    box-shadow: 0em .3em .5em .2em grey;
+    box-shadow: 0vh 0vh 1vh 0vh grey;
 }
 
 /* Typography */
@@ -177,7 +177,7 @@ body {
     padding: 0em;
     margin: 0em;
     border-radius: .3em;
-    box-shadow: .5em 1em 1em .5em grey;
+    box-shadow: .25em .5em .5em .25em grey;
     transition: transform .2s, box-shadow .3s;
 }
 
@@ -188,11 +188,11 @@ body {
 
 .image:hover {
     transform: scale(1.03);
-    box-shadow: 1em 2em 2em .5em grey;
+    box-shadow: .5em 1em 1em .25em grey;
 }
 
 .image:active {
-    box-shadow: 0em 0em .75em .5em grey;
+    box-shadow: 0em 0em 1em .5em grey;
     transform: scale(.97);
 }
 
@@ -242,7 +242,6 @@ body {
         padding: 2vw;
         margin: 2vw 0vw;
         border-radius: 2vw;
-        box-shadow: 0vw .5vw .5vw .2vw grey;
     }
 
     /* Font Sizing */
@@ -311,7 +310,6 @@ body {
         max-height: 60em;
         max-width: auto;
         border-radius: 2vw;
-        box-shadow: 0vw .5vw .5vw .2vw grey;
     }
 
     .tall {
